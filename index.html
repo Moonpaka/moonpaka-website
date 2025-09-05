@@ -1,236 +1,307 @@
-<!DOCTYPE html>
-<html lang="de">
+           <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoonPaka - Journey to the Moon 🚀</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #0a0a23;
-            color: #ffffff;
-            font-family: 'Roboto Mono', monospace;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            font-family: 'Orbitron', sans-serif;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            color: #00d4ff;
-            text-shadow: 0 0 10px #00d4ff;
-        }
-        h2 {
-            font-size: 2em;
-            color: #ffeb3b;
-        }
-        .script-font {
-            font-family: 'Dancing Script', cursive;
-            font-size: 2.5em;
-            color: #ff4081;
-        }
-        .ascii-art {
-            white-space: pre;
-            font-family: 'Roboto Mono', monospace;
-            font-size: 12px;
-            text-align: center;
-            background: #1a1a3d;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px auto;
-            max-width: 600px;
-            box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            border-radius: 15px;
-        }
-        a {
-            color: #00d4ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .goals {
-            margin: 20px 0;
-            padding: 20px;
-            background: #1a1a3d;
-            border-radius: 10px;
-        }
-        .goals li {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-        .links {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .links a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background: #ff4081;
-            border-radius: 5px;
-            color: #ffffff;
-        }
-        .links a:hover {
-            background: #ff6f00;
-        }
-    </style>
+  <meta charset="utf-8">
+  <title>HakiMaster ($HIM) - Ultimate Meme Coin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px;
+      background: rgba(0,0,0,0.92);
+      border-radius: 24px;
+      box-shadow: 0 0 40px rgba(255,255,255,0.07);
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.8em;
+      color: #fff;
+      text-shadow: 0 0 14px #ffe440, 0 0 2px #000;
+      margin: 8px 0 0 0;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-size: 1.28em;
+      color: #ffe440;
+      margin-bottom: 18px;
+      font-family: 'Dancing Script', cursive;
+      letter-spacing: 1px;
+    }
+    .logo {
+      width: 185px;
+      margin: 22px auto 16px auto;
+      display: block;
+      border-radius: 22px;
+      box-shadow: 0 0 14px #ffe44044;
+      border: 3px solid #fff;
+      background: #222;
+      transition: transform 0.72s cubic-bezier(.68,-0.55,.27,1.55);
+    }
+    .logo:hover {
+      transform: rotateY(360deg) scale(1.07);
+      box-shadow: 0 0 48px #ffe440bb, 0 8px 60px #111c;
+    }
+    .desc {
+      font-size: 1.13em;
+      color: #eee;
+      margin: 16px 0 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 9px;
+      padding: 13px 27px;
+      font-size: 1.1em;
+      background: #212121;
+      color: #ffe440;
+      text-decoration: none;
+      border-radius: 10px;
+      border: 1.7px solid #ffe440;
+      transition: background 0.2s, color 0.2s, border 0.2s;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    .btn:hover {
+      background: #ffe440;
+      color: #111;
+      border-color: #fff;
+    }
+    .contract {
+      font-size: 1em;
+      background: #191919;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 30px auto 25px auto;
+      max-width: 600px;
+      word-break: break-all;
+      color: #ffe440;
+      box-shadow: 0 0 18px rgba(255,228,64,0.11);
+    }
+    h2 {
+      font-size: 1.9em;
+      color: #fff;
+      margin-top: 36px;
+      text-shadow: 0 0 8px #ffe44033;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 1px;
+    }
+    ul.steps, ul.goals {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1em;
+      margin: 20px auto 18px auto;
+      text-align: left;
+      max-width: 600px;
+    }
+    ul.steps li, ul.goals li {
+      margin: 12px 0;
+      padding: 11px;
+      background: #181818;
+      border-radius: 10px;
+      border-left: 4px solid #ffe440;
+      color: #fff;
+    }
+    ul.goals li b {
+      color: #ffe440;
+    }
+    .story-block {
+      background: #181818;
+      border-radius: 12px;
+      padding: 15px 15px 12px 15px;
+      margin: 24px auto;
+      max-width: 640px;
+      font-size: 1.09em;
+      color: #ffe440;
+      border: 1.5px dashed #ffe440;
+      box-shadow: 0 0 12px #ffe44011;
+    }
+    .social-section {
+      margin: 38px 0 22px 0;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 26px;
+      flex-wrap: wrap;
+      margin: 12px 0 0 0;
+    }
+    .icon-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 54px;
+      height: 54px;
+      background: #191919;
+      border-radius: 50%;
+      box-shadow: 0 2px 12px #ffe44019;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+      margin: 0;
+      border: 1.5px solid #ffe440;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    .icon-btn:hover {
+      transform: scale(1.15) rotateZ(-8deg);
+      box-shadow: 0 4px 24px #ffe44066;
+      background: #ffe440;
+      border-color: #fff;
+    }
+    .icon-btn svg {
+      width: 32px;
+      height: 32px;
+      display: block;
+      transition: filter 0.25s, transform 0.25s;
+      filter: drop-shadow(0 0 4px #ffe44066);
+      fill: #ffe440;
+    }
+    .icon-btn:hover svg {
+      filter: drop-shadow(0 0 24px #000a);
+      fill: #191919;
+      transform: scale(1.13) rotate(-6deg);
+    }
+    .community-list {
+      margin: 0 auto;
+      text-align: left;
+      max-width: 520px;
+      color: #ffe440;
+      font-size: 1.06em;
+    }
+    .community-list li {
+      margin: 8px 0 8px 0;
+    }
+    .community-list a {
+      color: #fff;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+    .community-list a:hover {
+      color: #ffe440;
+    }
+    footer {
+      font-size: 0.97em;
+      color: #888;
+      margin-top: 36px;
+      opacity: 0.7;
+    }
+    @media (max-width: 700px) {
+      h1 { font-size: 1.6em; }
+      .logo { width: 90px; }
+      .container { padding: 9px; }
+      .icon-btn { width: 36px; height: 36px;}
+      .icon-btn svg { width: 20px; height: 20px;}
+      h2 { font-size: 1.25em; }
+      ul.steps, ul.goals { font-size: 0.95em; }
+      .story-block { font-size: 0.99em; }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🌙 MoonPaka - To the Moon! 🚀</h1>
-        <p class="script-font" style="text-align: center;">$MPAKA</p>
+  <div class="container">
+    <img src="https://user-images.githubusercontent.com/3369400/273363683-0f5ca7e7-8578-4e45-9e07-4c6dbb2f6a29.png" alt="HakiMaster Logo" class="logo">
+    <div class="subtitle">Unleash Your Haki! The Ultimate Meme Coin.</div>
+    <h1>HakiMaster ($HIM)</h1>
+    <p class="desc">🔥 Join a movement with real power. HakiMaster is 100% community, 0% tax, only vibes. Are you ready to master your Haki?</p>
 
-        <div class="ascii-art">
-                Moonpaka 
-            .____ .____       
-            | | | |      
-            | | ____ | | ____  
-            | | / _ \ | | / _ \ 
-            | |_( <_> )| |_( <_> )
-            |_______ \____/ |_______ \____/
-                    \/ \/
-                Moonpaka 
-            .____ .____       
-            | | | |      
-            | | ____ | | ____  
-            | | / _ \ | | / _ \ 
-            | |_( <_> )| |_( <_> )
-            |_______ \____/ |_______ \____/
-                    \/ \/
-        </div>
-
-        <h2>Welcome to the MoonPaka Mission! 🌌</h2>
-        <p>
-            MoonPaka is not just a coin—it's a movement! Our mascot, a brave Alpaka in a spacesuit, is on a mission to do what no one has done before: land on the Moon! With the collective power of individuals across the globe, we will make history. Join us, grab your $MPAKA, and let's soar to the stars together!
-        </p>
-
-        <div class="ascii-art">
-            🚀
-           / \
-          / \
-         /_____\
-         | 🦙 | 
-         | 🚀 | 
-         |_______|
-        </div>
-
-        <h2>Our Vision 🌠</h2>
-        <p>
-            MoonPaka believes in the power of community and innovation. No one has truly conquered the Moon—until now. With $MPAKA, we're building a decentralized dream where every holder is part of the journey. Our token is more than a currency; it’s a ticket to the lunar frontier, fueled by passion, memes, and a sprinkle of cosmic dust.
-        </p>
-
-        <h2>Let’s Hit Our Milestones! 🚀</h2>
-        <div class="goals">
-            <ul>
-                <li>1️⃣ <strong>Goal 1: $15,000</strong> - Kickstart the mission with initial funding for community events and marketing.</li>
-                <li>2️⃣ <strong>Goal 2: $50,000</strong> - Develop MoonPaka-branded NFTs featuring our Alpaka astronaut.</li>
-                <li>3️⃣ <strong>Goal 3: $250,000</strong> - Launch a gamified MoonPaka app where users can simulate lunar landings.</li>
-                <li>4️⃣ <strong>Goal 4: $750,000</strong> - Partner with space-tech startups to create real-world MoonPaka merchandise.</li>
-                <li>5️⃣ <strong>Goal 5: $1,500,000+</strong> - Fund a MoonPaka-themed virtual reality experience.</li>
-                <li>6️⃣ <strong>Goal 6: $50,000,000+</strong> - Establish a MoonPaka Foundation for space education and outreach.</li>
-                <li>7️⃣ <strong>Goal 7: $250,000,000+</strong> - Sponsor a lunar research project in the name of $MPAKA holders.</li>
-                <li>8️⃣ <strong>Goal 8: $750,000,000+</strong> - Create a global MoonPaka festival celebrating space exploration.</li>
-                <li>9️⃣ <strong>Goal 9: $1,500,000,000+</strong> - Build a MoonPaka Space Academy for aspiring astronauts.</li>
-                <li>🔟 <strong>Goal 10: $50,000,000,000+</strong> - Fund a MoonPaka lunar mission to leave our mark on the Moon!</li>
-            </ul>
-        </div>
-
-        <div class="ascii-art">
-     /\
-    /  \ 
-   /____\  o  o  <- Alpaka auf dem Mond
-  |  $MPAKA  |  <- Flagge
-  |_________|
- _/  ***  \_  <- Mondoberfläche
-/   *   *   \
-/_____________\
-        </div>
-
-        <h2>Join the MPAKA Revolution! 🌑</h2>
-        <p>
-            Get in early and be part of the $MPAKA movement. Our token is listed on top platforms, and our community is growing faster than a rocket launch. Don’t miss out—buy $MPAKA now and secure your spot in history!
-        </p>
-
-        <div class="links">
-            <h3>📜 Contract Address</h3>
-            <p>8Anr4pQE2CDwK6ZAuZXmWJ51EFaNdDyeEq9tGscMpump</p>
-
-            <h3>🔥 Buy $MPAKA Now</h3>
-            <a href="https://pump.fun/coin/8Anr4pQE2CDwK6ZAuZXmWJ51EFaNdDyeEq9tGscMpump" target="_blank">Pump.fun</a>
-
-            <h3>📊 Track $MPAKA</h3>
-            <a href="https://dexscreener.com/solana/gqgqhaxyxajs7g62v4bggkjec8lighxjmqlvazryfhl9" target="_blank">DexScreener</a>
-            <a href="https://www.defined.fi/sol/GQgqHaxYXajs7g62v4BggkJec8LiGhXJmQLvazRyfHL9?quoteToken=token1&cache=96f50" target="_blank">Defined.fi</a>
-            <a href="https://coinmarketcap.com/dexscan/solana/GQgqHaxYXajs7g62v4BggkJec8LiGhXJmQLvazRyfHL9/" target="_blank">CoinMarketCap</a>
-
-            <h3>👻 Wallet Support</h3>
-            <a href="https://phantom.com/tokens/solana/8Anr4pQE2CDwK6ZAuZXmWJ51EFaNdDyeEq9tGscMpump" target="_blank">Phantom</a>
-
-            <h3>💬 Join Our Community</h3>
-            <a href="http://t.me/moonpaka" target="_blank">Telegram</a>
-            <a href="https://x.com/moonpakacoin" target="_blank">X</a>
-        </div>
-
-        <h2>The MoonPaka Ecosystem 🌌</h2>
-        <p>
-            $MPAKA is more than a token—it’s an ecosystem. Here’s what we’re building:
-        </p>
-        <ul>
-            <li><strong>NFTs</strong>: Collectible MoonPaka NFTs with unique spacesuit designs.</li>
-            <li><strong>Gaming</strong>: A MoonPaka mobile game where players navigate lunar challenges.</li>
-            <li><strong>Education</strong>: Workshops and resources to inspire the next generation of space explorers.</li>
-            <li><strong>Merchandise</strong>: MoonPaka-themed apparel, from spacesuits to lunar plushies.</li>
-        </ul>
-
-        <div class="ascii-art">
-            .____ .____       
-            | | | |      
-            | | ____ | | ____  
-            | | / _ \ | | / _ \ 
-            | |_( <_> )| |_( <_> )
-            |_______ \____/ |_______ \____/
-                    \/ \/
-        </div>
-
-        <h2>Why MoonPaka? 🚀</h2>
-        <p>
-            - <strong>Community-Driven</strong>: Every $MPAKA holder has a voice in our lunar mission.<br>
-            - <strong>Innovative</strong>: We’re blending crypto, space, and memes in a way no one else has.<br>
-            - <strong>Historic</strong>: Be part of the first crypto project to aim for the Moon—literally!<br>
-            - <strong>Fun</strong>: Who doesn’t love an Alpaka in a spacesuit?
-        </p>
-
-        <h2>Spread the Word with Moonpaka🦙📡</h2>
-        <p>
-            I Want everyone to share the MoonPaka mission via X, TikTok, Weibo, Reddit, Discord & Telegram
-        </pre>
-        <p>
-            Please tag us under every Post with $MPAKA & #Moonpaka and let spread over the word!
-        </p>
-
-        <h2>Get Involved! 🌟</h2>
-        <p>
-            Whether you’re a crypto enthusiast, a space nerd, or just love Alpakas, MoonPaka is for you. Buy $MPAKA, join our Telegram and X communities, and let’s make history together. To the Moon! 🚀
-        </p>
-
-        <div class="ascii-art">
-             🌌
-           /   \
-          /_____\
-            |🦙|
-            |🚀|
-         |_______|
-        </div>
+    <div>
+      <a class="btn" href="https://www.dextools.io/" target="_blank">Chart</a>
+      <a class="btn" href="https://t.me/hakimastercoin" target="_blank">Telegram</a>
+      <a class="btn" href="#" target="_blank">Buy $HIM</a>
     </div>
+
+    <div class="contract">
+      <b>Token Contract Address:<br></b>
+      0x0000000000000000000000000000000000000000
+    </div>
+
+    <h2>How To Join?</h2>
+    <ul class="steps">
+      <li>1️⃣ Get $HIM on DEXTools or join our Telegram for help</li>
+      <li>2️⃣ HOLD and become part of the HakiMaster Army</li>
+      <li>3️⃣ Enjoy the ride — this is just the beginning!</li>
+    </ul>
+
+    <h2>Tokenomics</h2>
+    <ul class="goals">
+      <li><b>Total Supply:</b> 1,000,000,000 $HIM</li>
+      <li><b>Community:</b> 100% fair launch. No presale. No taxes.</li>
+      <li><b>Security:</b> Liquidity locked, contract renounced.</li>
+      <li><b>Driven by:</b> Memes, energy, and real Haki!</li>
+    </ul>
+
+    <h2>Roadmap</h2>
+    <ul class="goals">
+      <li><b>Step 1:</b> Launch & Initial Hype</li>
+      <li><b>Step 2:</b> Listings on CoinGecko & CoinMarketCap</li>
+      <li><b>Step 3:</b> Viral Community Memes & Marketing</li>
+      <li><b>Step 4:</b> Centralized Exchange Listings</li>
+      <li><b>Step 5:</b> HakiMaster Merch Drop</li>
+      <li><b>Step 6:</b> More to be revealed...</li>
+    </ul>
+
+    <h2>Our Story</h2>
+    <div class="story-block">
+      It all began with a dream of mastering Haki — power, will, and unity. HakiMaster ($HIM) is more than a token, it's a movement.<br><br>
+      0% tax, 100% community. No presale, no nonsense. Just unleash your Haki, meme hard, and join the most legendary army in crypto!
+    </div>
+
+    <div class="social-section">
+      <h2>Connect & Join Us</h2>
+      <div class="social-icons">
+        <!-- Twitter/X -->
+        <a href="https://x.com/devniqq" class="icon-btn" target="_blank" title="Twitter/X">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="16" />
+            <path d="M23.643 9.75c-.835.37-1.732.62-2.675.733a4.684 4.684 0 002.05-2.579 9.281 9.281 0 01-2.97 1.135 4.662 4.662 0 00-7.95 4.252A13.228 13.228 0 018.1 8.845a4.662 4.662 0 001.44 6.216 4.635 4.635 0 01-2.112-.583v.059a4.666 4.666 0 003.74 4.574c-.446.121-.915.148-1.393.056a4.667 4.667 0 004.355 3.237A9.357 9.357 0 017 24.027a13.173 13.173 0 007.188 2.108c8.621 0 13.337-7.148 13.337-13.337 0-.203-.005-.407-.015-.609a9.57 9.57 0 002.346-2.439z"/>
+          </svg>
+        </a>
+        <!-- X Community -->
+        <a href="https://x.com/i/communities/1963034145736790347" class="icon-btn" target="_blank" title="X Community">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="16" />
+            <path d="M10 22L22 10M10 10l12 12" stroke="#ffe440" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </a>
+        <!-- Discord -->
+        <a href="https://discord.com/invite/jSagY6e3" class="icon-btn" target="_blank" title="Discord">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="16" />
+            <path d="M24.5 21.5c0 .552-.448 1-1 1h-15c-.552 0-1-.448-1-1v-11c0-.552.448-1 1-1h15c.552 0 1 .448 1 1v11zm-6.5-5.5c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1zm-5 0c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1zm9.25 3.25c-.25-.334-1.334-1.25-3.25-1.25s-3 .916-3.25 1.25c-.083.111-.083.278 0 .389.083.111.25.139.389.083 1.056-.472 2.472-.472 3.528 0 .139.056.306.028.389-.083.083-.111.083-.278 0-.389z"/>
+          </svg>
+        </a>
+        <!-- Telegram -->
+        <a href="https://t.me/@devniqcommunity" class="icon-btn" target="_blank" title="Telegram">
+          <svg viewBox="0 0 32 32" fill="none">
+            <rect width="32" height="32" rx="16" />
+            <path d="M23.872 8.425a1.127 1.127 0 0 0-1.17-.156L7.572 15.011c-.44.193-.67.543-.654 1.01.017.468.277.803.735.957l3.575 1.235c.245.085.478.013.694-.215l5.172-5.324c.094-.096.194-.09.293.018.099.108.096.212-.009.308l-4.179 3.901c-.094.088-.063.155.088.155h2.168c.393 0 .724.217.993.652l2.135 3.444c.174.28.41.42.71.42.185 0 .353-.064.504-.194a1.12 1.12 0 0 0 .385-.845V9.455c0-.378-.124-.66-.372-.83z"/>
+          </svg>
+        </a>
+      </div>
+      <ul class="community-list">
+        <li>🌐 <a href="https://t.me/hakimastercoin" target="_blank">Telegram Main</a></li>
+        <li>🌐 <a href="https://t.me/@devniqcommunity" target="_blank">Telegram Community</a></li>
+        <li>🌐 <a href="https://x.com/devniqq" target="_blank">Twitter</a></li>
+        <li>🌐 <a href="https://x.com/i/communities/1963034145736790347" target="_blank">X Community</a></li>
+        <li>🌐 <a href="https://discord.com/invite/jSagY6e3" target="_blank">Discord</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      🚨 Not financial advice. Just Haki, just fun, just memes.<br>
+      Copyright 2025 HakiMaster ($HIM) ©
+    </footer>
+  </div>
 </body>
-</html> 
+</html>
